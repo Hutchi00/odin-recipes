@@ -3,35 +3,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza</title>
+    <link rel="stylesheet" href="/styles.css" />
   </head>
 
   <body>
-    <h1>Pizza</h1>
+    <h1 id="pizza">Pizza</h1>
 
-    <img src="/images/pizza.jpg" alt="picture of pizza" />
-    <h2>Description</h2>
-    <p>
+    <img class="img" src="/images/pizza.jpg" alt="picture of pizza" />
+    <p class="recipe-description">
       A simple and tasteful pasta dish containing only a hanfull of ingridients
     </p>
-    <h2>Ingridients</h2>
-    <ul>
-      <li>pasta of your choice</li>
-      <li>eggs</li>
-      <li>parmesan</li>
-      <li>pancetta</li>
-    </ul>
+
+    <h2 class="ingridients">Ingridients</h2>
+
+    <div class="list-of-ingridients">
+      <ul>
+        <li>pasta of your choice</li>
+        <li>eggs</li>
+        <li>parmesan</li>
+        <li>pancetta</li>
+      </ul>
+    </div>
 
     <h2>Steps</h2>
-    <ol>
-      <li>
-        First cook the pasta (Time for this depends of what pasta you use. Read
-        your information on the package)
-      </li>
-      <li>meanwhile cut the pancetta and heat it up in the pan</li>
-      <li>mix the eggs</li>
-      <li>finally blend it all together</li>
-    </ol>
 
-    <a href="../index.html">Back to home page</a>
+    <div class="list-of-ingridients">
+      <ol>
+        <li>
+          First cook the pasta (Time for this depends of what pasta you use.
+          Read your information on the package)
+        </li>
+        <li>meanwhile cut the pancetta and heat it up in the pan</li>
+        <li>mix the eggs</li>
+        <li>finally blend it all together</li>
+      </ol>
+    </div>
+
+    <a class="homepage" href="../index.html">Back to home page</a>
   </body>
 </html>

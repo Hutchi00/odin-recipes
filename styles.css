@@ -1,0 +1,96 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+.img {
+  height: auto;
+  width: 400px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+#meatballs {
+  padding-top: 20px;
+}
+
+#pizza {
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Description {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.recipe-description {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.ingridients {
+  padding-top: 20px;
+}
+
+.list-of-ingridients {
+  text-align: center;
+}
+
+.list-of-ingridients ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-of-ingridients li {
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+}
+
+.list-of-ingridients ol {
+  list-style-type: none;
+}
+
+.homepage {
+  font-weight: bold;
+  position: absolute;
+  left: 0pt;
+  padding-left: 20px;
+}
+
+.Next-recipe {
+  font-weight: bold;
+  position: absolute;
+  right: 0pt;
+  padding-right: 20px;
+}
